@@ -1,5 +1,5 @@
 {
-  "name": "lldaction-log",
+  "name": "lld/action-log",
   "description": "A laravel package of ActionLog",
   "keywords": ["laravel","ActionLog"],
 
