@@ -28,11 +28,6 @@ class ActionLogServiceProvider extends ServiceProvider
         $model = config("actionlog");
 		if($model){
 			foreach($model as $k => $v) {
-
-//			$v::updated(function($data){
-//
-//					ActionLog::createActionLog('update',"更新的id:".$data->id);
-//				});
 			
 			$v::saved(function($data){
 
@@ -63,7 +58,7 @@ class ActionLogServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton("ActionLog",function($app){
-            return new \luoyangpeng\ActionLog\Repositories\ActionLogRepository();
+            return new \lld\ActionLog\Repositories\ActionLogRepository();
         });
     }
 }

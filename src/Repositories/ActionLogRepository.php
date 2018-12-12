@@ -2,7 +2,7 @@
 namespace lld\ActionLog\Repositories;
 
 use Illuminate\Http\Request;
-use luoyangpeng\ActionLog\Services\clientService;
+use lld\ActionLog\Services\clientService;
 use illuminate\support\facades\route;
 class ActionLogRepository {
 
