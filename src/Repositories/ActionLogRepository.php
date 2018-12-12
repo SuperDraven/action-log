@@ -1,5 +1,5 @@
 <?php
-namespace luoyangpeng\ActionLog\Repositories;
+namespace lld\ActionLog\Repositories;
 
 use Illuminate\Http\Request;
 use luoyangpeng\ActionLog\Services\clientService;
@@ -17,7 +17,7 @@ class ActionLogRepository {
     public function createActionLog($type,$content)
     {
         $admin = request()->get('admin');
-    	$actionLog = new \luoyangpeng\ActionLog\Models\ActionLog();
+    	$actionLog = new \lld\ActionLog\Models\ActionLog();
 
     		$actionLog->admin_id=$admin->id;
     		$actionLog->admin_name = $admin->name;

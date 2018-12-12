@@ -1,5 +1,5 @@
 <?php
-namespace luoyangpeng\ActionLog\Models;
+namespace lld\ActionLog\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

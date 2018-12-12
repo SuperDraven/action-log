@@ -1,6 +1,6 @@
 <?php
 
-namespace luoyangpeng\ActionLog\Facades;
+namespace lld\ActionLog\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace luoyangpeng\ActionLog;
+namespace lld\ActionLog;
 
 use Illuminate\Support\ServiceProvider;
 use ActionLog;
